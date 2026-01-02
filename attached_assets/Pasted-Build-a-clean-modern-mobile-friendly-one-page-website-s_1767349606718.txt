@@ -1,0 +1,53 @@
+Build a clean, modern, mobile-friendly one-page website (single scrolling page) in Polish for a local cleaning company called “Sprzątanie Na Błysk Wrocław”. The design must be simple, fast, and professional (white background, light accents, clear typography), optimized for conversions and local SEO. Add a sticky top bar with a clear CTA button “Zadzwoń teraz” (click-to-call) and a second CTA “Poznaj cennik” that scrolls to the pricing section. Use the city Wrocław prominently in headings and metadata for SEO.
+
+Include these sections in this order:
+
+Hero: Headline “Sprzątanie Na Błysk – Wrocław”, short subheadline about szybkie i dokładne sprzątanie mieszkań, domów i biur, and 2 CTA buttons (“Zadzwoń” and “Poznaj cennik”).
+
+Usługi: Present main categories: sprzątanie podstawowe, sprzątanie generalne, mycie okien, sprzątanie balkonu/tarasu, pranie tapicerki, pranie wykładzin, doczyszczanie posadzek, mycie garaży.
+
+Cennik: Create a clear pricing section based on this price list (do not link out; show it on the page) and display prices exactly as below:
+
+Sprzątanie podstawowe (PLN): Kawalerka 20 m2 – 150; Mieszkanie 1-pok (<40 m2) – 200; Mieszkanie 1-pok (>40 m2) – 250; Mieszkanie 2-pok (40–60 m2) – 300; Mieszkanie 3-pok (60–80 m2) – 350; Domy (90–120 m2) – 450.
+
+Sprzątanie generalne (PLN): Kawalerka 20 m2 – 250; Mieszkanie 1-pok (<40 m2) – 350; Mieszkanie 1-pok (>40 m2) – 450; Mieszkanie 2-pok (40–60 m2) – 500; Mieszkanie 3-pok (60–80 m2) – 550; Domy (90–120 m2) – 700.
+
+Dopłaty (PLN): Mycie okien – od 35; Balkon/taras – od 50.
+
+Pranie tapicerki i wykładzin (PLN): Pranie kanapy/sofy – od 150; Narożnik – od 200; Materace: Jedynka – 200; Dwójka – 300; Inne: Pranie wykładziny (cena za m2) – 15; Krzesła tapicerowane – 20–30.
+
+Doczyszczanie posadzek / garaże (PLN): Mycie hal garażowych – od 150; Mycie maszynowe – 1,80/m2; Zamiatanie ręczne – 0,70/m2; Odkurzanie posadzki – 1,00/m2; Doczyszczanie posadzek – 4,20/m2.
+Add a note under pricing: “Ceny mogą się różnić w zależności od zakresu – zadzwoń po szybką wycenę.”
+
+Dlaczego my: 4–6 short benefits (punktualność, dokładność, bezpieczne środki, szybkie terminy, sprzątanie mieszkań/biur, Wrocław i okolice).
+
+FAQ: Add 6–8 FAQs (czas sprzątania, dojazd Wrocław, środki czystości, jak przygotować mieszkanie, co obejmuje sprzątanie generalne vs podstawowe, mycie okien, pranie tapicerki, doczyszczanie posadzek).
+
+Kontakt (bez formularza): Show phone prominently with click-to-call link and a short line encouraging contact. Include working hours placeholders and service area “Wrocław i okolice”.
+
+Stopka: Company name, quick links (anchors), short disclaimer about pricing.
+
+SEO requirements (must implement)
+Proper meta title + meta description (Polish) including “sprzątanie Wrocław”.
+
+Open Graph tags for sharing.
+
+Add Schema.org JSON-LD structured data for a local service business (LocalBusiness / CleaningService) with name, areaServed=Wrocław, telephone (same as click-to-call), and URL placeholder.
+
+Use semantic HTML (H1 once, H2 for sections), fast loading, and good Lighthouse basics.
+
+Click-to-call requirements
+Put phone number in header and hero as a button using a tel: link (e.g., tel:+48XXXXXXXXX). Ensure it is visible on mobile and desktop.
+
+Code organization
+Keep the project clean: index.html, styles.css, script.js (JS minimal: smooth scroll, mobile menu, FAQ accordion).
+
+Add a short README.md explaining:
+
+Where to change phone number and city.
+
+Where to edit pricing items.
+
+How to change colors/fonts/branding.
+
+Use tasteful icons, simple animations (optional), and ensure the page is fully responsive.
